@@ -1,7 +1,7 @@
-# Smart_Waste_Station
+# 🗑️ Smart_Waste_Station
 
-* 프로젝트 개요
-초음파 센서와 터치 센서를 활용해 쓰레기통의 뚜껑을 자동 제어하고 내부 적재량을 실시간으로 모니터링하여 WIFI 통신을 통해 서버(MariaDB)로 데이터를 전송하는 IoT 기반 스마트 쓰레기통 시스템
-
+## 📝 프로젝트 개요
+현장의 스마트 쓰레기통(STM32)과 관리자용 관제실 대시보드(Arduino)를 분리하고, 이를 서버(MariaDB)로 연결한 **통합 IoT 폐기물 관리 시스템**입니다. 
+쓰레기통의 뚜껑 자동 개폐부터 실시간 적재량 데이터 수집, 그리고 관제실에서의 원격 모니터링까지 전체 데이터 파이프라인을 설계하고 구현했습니다.
 ## 기술 스택
 * **MCU / Hardware:** STM32, Arduino UNO, UltraSonic sensor, touch sensor, Servo motor
